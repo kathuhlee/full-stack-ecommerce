@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+.duck-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  margin: 0.8em;
+}
+
+.duck-card {
+  display: flex;
+  /* align-items: center; */
+  margin: 0.6em 0.3em;
+  height: 360px;
+  width: 300px;
+  justify-content: center;
+  flex-flow: column wrap;
+  border: 3px solid black;
+  border-radius: 15%;
+  box-shadow: rgba(0, 0, 0, 0.436) 10px 10px;
+  padding: 5px;
+  text-align: center;
+}
+
+.duck-card p {
+  margin: 2px 0;
+}
+
+.duck-image {
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+  display: block;
+  margin: auto;
+}
+
+/* .duck-details {
+  /* align-items: center; */
+
+/* text-align: center; */
+
+@media only screen and (min-width: 768px) {
+  .duck-grid {
+    flex-flow: row wrap;
+    width: 100vw;
+    justify-content: space-evenly;
+
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+   
+    align-items: center; */
+  }
+}

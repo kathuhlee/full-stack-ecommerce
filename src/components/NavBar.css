@@ -1,0 +1,33 @@
+.shopping-cart {
+  color: black;
+}
+
+.shopping:hover {
+  color: #a8922d;
+}
+
+.duck-logo {
+  height: 4em;
+  margin-left: 20px;
+  padding-top: 2px;
+}
+
+#navBar {
+  background: #f590e5;
+}
+
+@media only screen and (min-width: 375px) {
+  #navBar > div:nth-child(2) > div::before {
+    visibility: hidden;
+  }
+
+  #navBar > div:nth-child(3) > div::before {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (min-width: 650px) {
+  #navBar > div:nth-child(2) > div > div.ui.icon.input {
+    width: 405px;
+  }
+}
