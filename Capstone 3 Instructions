@@ -1,0 +1,8 @@
+Your task is to build a website for the business of your choice. It can be for a grocery store, a car dealership, a jewelry shop, a cell phone store, a bookstore, or any other legitimate business that maintains an inventory and sells products. One limitation is that the business should not contain any content that is potentially ethically offensive or graphic (drugs, sexual content, etc.).
+Along with the website’s front-end, you will also be creating a back-end for this project. You will need persistent storage to track users, orders, and inventory that you can perform CRUD operations on. Users must be able to create orders and purchase inventory, and an admin user must be able to add and update inventory.
+Your project presentation will be presented to stakeholders at TEKsystems. They will understand that the range of functionality to expect in your application derives from product backlogs which were developed as Scrum teams over the 3-month duration of the bootcamp. As such, your team’s range of functionality may differ from the other teams. Ultimately, they will expect to see a full stack e- commerce application meeting the following specifications:
+• Front end: the app must be a Single Page Application (SPA) created using the React.js and React Router libraries.
+• Back end: the app should include one or more MySQL Databases for storing application data
+• Middleware: the app should leverage Spring Boot framework to connect the front end and back
+end.
+Most importantly, the stakeholders will gauge how well you worked as a team. This will be reflected not only in the quality of the work produced, but also how you present that work.
